@@ -1,0 +1,65 @@
+.no-border
+{
+border-left:none;
+border-bottom:solid black;
+}
+
+table
+{
+border:solid black;
+}
+.row2 img:hover
+{
+cursor:pointer;
+border:solid gray;
+}
+.row2 img:active
+{
+cursor:pointer;
+border:solid red;
+background-color:gray;
+}
+.scoreboard
+{
+position:relative;
+height:100px;
+width:550px;
+background-image:url("img/score.jpg");
+}
+.scoreboard input 
+{
+position:relative;
+top:35px;
+left:25px;
+height:35px;
+width:250px;
+font:35px arial,sans-serif;
+
+}
+.scoreboard button
+{
+position:relative;
+top:30px;
+left:45px;
+height:35px;
+width:90px;
+font:25px arial,sans-serif;
+}
+.scroreboard div
+{
+color:white;
+position:relative;
+top:35px;
+left:255px;
+}
+#not_present
+{
+position:absolute;
+top:10px;
+left:555px;
+width:200px;
+height:98px;
+background-image:url("img/score.jpg");
+font:40px arial,sans-serif;
+color:white;
+}
