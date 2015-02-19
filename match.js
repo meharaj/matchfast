@@ -27,10 +27,10 @@ function load()
 	 for(i=1;i<6;i++)
 	 {
 		 img1[i]=document.getElementById(i);
-		 file=Math.floor(Math.random()*34+1);
-		 if(arr1.indexOf(file,1)>0)
+		 file=Math.floor(Math.random()*34+1);//syntax return Math.floor(Math.random() * (max - min)) + min;
+		 if(arr1.indexOf(file,1)>0)//arr.indexOf(searchvalue,start)
 		 {
-			console.log("got same");
+			console.log("got same");//avoiding same image in the row by generating another random number
 			file=Math.floor(Math.random()*34+1);
 		 }
 		 else
@@ -55,10 +55,10 @@ function load()
 	 for(i=11;i<16;i++)
 	 {
 		 img2[i]=document.getElementById(i);
-		 file=Math.floor(Math.random()*34+1);
-		 if(arr2.indexOf(file,11)>0)
+		 file=Math.floor(Math.random()*34+1);syntax return Math.floor(Math.random() * (max - min)) + min;
+		 if(arr2.indexOf(file,11)>0)//arr.indexOf(searchvalue,start)
 		 {
-			console.log("got same in arr2")
+			console.log("got same in arr2")//avoiding same image in the row by generating another random number
 			file=Math.floor(Math.random()*34+1);
 		 }
 		 else
